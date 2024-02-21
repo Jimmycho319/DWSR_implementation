@@ -1,0 +1,15 @@
+Suggestions for improving the model
+    Could benefit from dropout for reducing overfitting
+    Cosine decay seems to be doing well, we need to redo though with the correct piecewise decay to compare
+    Try larger training size with variable resolutions and aspect ratios
+    Compare the model with the results from the paper on the Urban100 dataset
+    rename 'Train_subimages' to 'Train_subimages_x2'
+
+
+Todo for comparing our model to the base model
+    Will be using the Urban100 dataset
+    Confirm that the model type that we are using is the one that was used in the paper by checking PSNR and SSIM
+    Train our own model on the NTIRE dataset
+
+    load the dataset
+    run on the dataset

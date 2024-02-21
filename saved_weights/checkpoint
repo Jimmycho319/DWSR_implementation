@@ -1,0 +1,2 @@
+model_checkpoint_path: "cos_model100_100"
+all_model_checkpoint_paths: "cos_model100_100"
